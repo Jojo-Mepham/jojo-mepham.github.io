@@ -13,3 +13,7 @@
   -webkit-text-stroke-color: #f7a0bf;
     -webkit-text-stroke-width: thin;
 }
+.button-grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto
+}
