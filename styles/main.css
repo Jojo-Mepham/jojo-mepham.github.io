@@ -22,10 +22,15 @@
   background: none;
   border: none;
   transition-duration: 0s;
-  font-size:25px;
+  font-size:3vw;
 }
 .button:hover {
   background:#f7a0bf;
   border-radius: 50%;
-  font-size: 200%
+  font-size: 4vw;
+}
+.header-type {
+font-size: 10vw;
+text-align: center;
+white-space:nowrap;
 }
