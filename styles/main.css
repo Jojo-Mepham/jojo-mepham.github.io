@@ -17,3 +17,12 @@
   display: grid;
   grid-template-columns:auto auto auto
 }
+.button {
+  background: none;
+  border: none;
+  transition-duration: 0s;
+}
+.button:hover {
+  background:#f7a0bf;
+  border-radius: 50%;
+}
