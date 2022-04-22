@@ -38,3 +38,25 @@ white-space:nowrap;
   border-radius: 50%;
   transform: scale(1.5)
 }
+.blog-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  padding: 5vw;
+  margin-right: 7vw;
+  margin-left: 7vw;
+}
+
+.topic-button {
+  background: url(../images/bust-icon.png);
+    background-size: 20vw;
+    height: 29vw;
+    width: 20vw;
+    border: none;
+    font-family: "fugaz one"
+  
+}
+.topic-button:hover {
+  background: none
+  
+}
