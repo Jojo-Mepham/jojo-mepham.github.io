@@ -1,7 +1,6 @@
 .bg-image {
   background: url(../images/mitchell-griest-unsplash.jpg);
   background-size: auto;
-  overflow: scroll;
   background-repeat: no-repeat;
   background-position: center;
 }
