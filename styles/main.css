@@ -22,8 +22,10 @@
   background: none;
   border: none;
   transition-duration: 0s;
+  font-size:25px;
 }
 .button:hover {
   background:#f7a0bf;
   border-radius: 50%;
+  font-size: 200%
 }
