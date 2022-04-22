@@ -27,7 +27,7 @@
 .button:hover {
   background:#f7a0bf;
   border-radius: 50%;
-  font-size: 4vw;
+  transform: scale(1.5)
 }
 .header-type {
 font-size: 10vw;
