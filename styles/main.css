@@ -5,3 +5,11 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.turquoise-text {
+  font-family:"Fugaz One"; 
+  color:turquoise;
+}
+.text-outline{
+  -webkit-text-stroke-color: #f7a0bf;
+    -webkit-text-stroke-width: thin;
+}
