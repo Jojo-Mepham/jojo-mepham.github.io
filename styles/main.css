@@ -20,7 +20,7 @@
 .button {
   background: none;
   border: none;
-  transition-duration: 0s;
+  transition-duration: 0.4s;
   font-size:3vw;
 }
 .button:hover {
