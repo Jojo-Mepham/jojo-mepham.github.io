@@ -49,14 +49,23 @@ white-space:nowrap;
 
 .topic-button {
   background: url(../images/bust-icon.png);
-    background-size: 20vw;
-    height: 29vw;
-    width: 20vw;
+    background-size: 10vw;
+    height: 20vw;
+    width: 25vw;
     border: none;
-    font-family: "fugaz one"
+    font-family: "fugaz one";
+    background-repeat: no-repeat;
+    background-position: center;
+   text-align: center;
+   transition-duration:0.4s;
+  
   
 }
 .topic-button:hover {
-  background: none
-  
+  transform: scale(1.5)
+}
+.button-text {
+  font-size: 3vw;
+  -webkit-text-stroke-color: #013052;
+  -webkit-text-stroke-width: 0.09vw;
 }
