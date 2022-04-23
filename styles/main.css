@@ -62,10 +62,34 @@ white-space:nowrap;
   
 }
 .topic-button:hover {
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 .button-text {
   font-size: 3vw;
   -webkit-text-stroke-color: #013052;
   -webkit-text-stroke-width: 0.09vw;
+}
+.body-type {
+  font-family: "special elite";
+  font-size:2vw;
+  text-align:center;
+  color:turquoise;
+}
+div.transp-box {
+  background-color: rgb(1,48,82,0.7);
+  padding:.5vw;
+}
+.html-example{
+  height: 20vw;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.css-example {
+  height: 20vw;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
