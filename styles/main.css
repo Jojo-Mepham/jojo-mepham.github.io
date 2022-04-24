@@ -51,7 +51,7 @@ white-space:nowrap;
   margin-left: 7vw;
 }
 
-.topic-button {
+.tech-button {
   background: url(../images/bust-icon.png);
     background-size: 10vw;
     height: 20vw;
@@ -65,7 +65,7 @@ white-space:nowrap;
   
   
 }
-.topic-button:hover {
+.tech-button:hover {
   transform: scale(1.5);
 }
 .button-text {
@@ -111,4 +111,19 @@ white-space:nowrap;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 2vw;
+}
+.culture-button {
+  background: url(../images/culture-icon.png);
+    background-size: 10vw;
+    height: 20vw;
+    width: 25vw;
+    border: none;
+    font-family: "fugaz one";
+    background-repeat: no-repeat;
+    background-position: center;
+   text-align: center;
+   transition-duration:0.4s;
+}
+.culture-button:hover {
+  transform: scale(1.5);
 }
