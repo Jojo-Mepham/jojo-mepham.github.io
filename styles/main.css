@@ -1,3 +1,8 @@
+html, body {
+  margin:0;
+  padding: 0;
+  background-color:#091a22
+}
 .bg-image {
   background: url(../images/mitchell-griest-unsplash.jpg);
   background-size: auto;
@@ -75,11 +80,7 @@ white-space:nowrap;
   text-align:center;
   color:turquoise;
 }
-.transp-box {
-  background-color: rgb(1,48,82,0.7);
-  padding:.5vw;
-  margin:2vw;
-}
+
 .html-example{
   height: 20vw;
     width: auto;
@@ -103,4 +104,11 @@ white-space:nowrap;
   margin-right: auto;
   margin-left: auto;
   margin-bottom:2vw;
+}
+.bg-image-banner {
+  background: url(../images/mitchell-griest-unsplash.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 2vw;
 }
