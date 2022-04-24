@@ -1,7 +1,6 @@
 html, body {
   margin:0;
   padding: 0;
-  background-color:#091a22
 }
 .bg-image {
   background: url(../images/mitchell-griest-unsplash.jpg);
@@ -105,7 +104,7 @@ white-space:nowrap;
   margin-left: auto;
   margin-bottom:2vw;
 }
-.bg-image-banner {
+.banner {
   background: url(../images/mitchell-griest-unsplash.jpg);
   background-size: auto;
   background-repeat: no-repeat;
