@@ -75,9 +75,10 @@ white-space:nowrap;
 }
 .body-type {
   font-family: "special elite";
-  font-size:2vw;
+  font-size:1vw;
   text-align:center;
   color:turquoise;
+  padding:2vw;
 }
 
 .html-example{
