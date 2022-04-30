@@ -75,7 +75,7 @@ white-space:nowrap;
 }
 .body-type {
   font-family: "special elite";
-  font-size:1vw;
+  font-size:1.5vw;
   text-align:center;
   color:turquoise;
   padding:2vw;
@@ -88,6 +88,7 @@ white-space:nowrap;
     margin-right: auto;
     margin-left: auto;
     margin-bottom:2vw;
+    margin-top:2vw;
 }
 .css-example {
   height: 20vw;
@@ -96,6 +97,7 @@ white-space:nowrap;
     margin-right: auto;
     margin-left: auto;
     margin-bottom:2vw;
+    margin-top:2vw;
 }
 .s2-example {
   height: 20vw;
@@ -104,6 +106,7 @@ white-space:nowrap;
   margin-right: auto;
   margin-left: auto;
   margin-bottom:2vw;
+  margin-top:2vw;
 }
 .banner {
   background: url(../images/mitchell-griest-unsplash.jpg);
@@ -134,7 +137,13 @@ fieldset {
   padding:2vw;
   border-color: #f7a0bf;
 }
-.pink-text {
-  font-family: "special elite";
-  color:#f7a0bf;
+.main-content {
+  width: 75%
+}
+.border {
+  border-color: #f7a0bf;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  width: 75%;
 }
