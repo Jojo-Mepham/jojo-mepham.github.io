@@ -25,7 +25,7 @@
     </div>
     <div style="margin: 5vw 2vw 5vw 2vw;">
       <div class="border"></div>
-      <h3 class="turquoise-text">Javascript and the relationship to HTML and CSS</h3>
+    <h3 class="turquoise-text">Javascript and the relationship to HTML and CSS</h3>
       <form>
         <fieldset>
           <legend>What is your preferred background colour?</legend>
@@ -37,39 +37,48 @@
           <label value="white">White</label>
         </fieldset>
       </form>
-      <p class="body-type main-content">
-        Notice how when you select different options, that changes the background colour? This is Javascript interacting with the HTML and CSS on the page! If HTML is the body and CSS is the style, Javascript is the neuron pathways telling the body how to move and the CSS what to look like.
+          <p class="body-type main-content">
+          Notice how when you select different options, that changes the background colour? This is Javascript interacting with the HTML and CSS on the page! If HTML is the body and CSS is the style, Javascript is the neuron pathways telling the body how to move and the CSS what to look like.
       </p>
       <div class="border"></div>
-      <h3 class="turquoise-text">Control flow and Loops</h3>
-      <p class="turquoise-text border" style="text-align:right;">control flow</p>
-      <p class="body-type main-content">Control flow is how the computer reads and executes the code we've written. When we write some instructions the computer will read this from top to bottom. When the computer comes across instructions it will execute the instructions we are giving it in that order</p>
-      <p class="turquoise-text border" style="text-align:right;">loops</p>
-      <p class="body-type main-content">Loops are instructions that will interrupt our control flow and loop through information until we've told it to stop and/or there's no more information to loop through. Once that loop has completed the computer will keep reading and move back through the control flow.</p>
-      <div class="border"></div>
-      <h3 class="turquoise-text">What is the DOM?</h3>
-      <p class="body-type main-content">The DOM is essentially the family tree of the webpage youre looking at. </p>
-      <div class="border"></div>
-      <h3 class="turquoise-text">Arrays and Objects</h3>
-      <p class="turquoise-text border" style="text-align:right;">arrays</p>
-      <p class="body-type main-content">Arrays contain multiple items in a single variable. We can use arrays when we want to store multiple items and return a selected item or items.</p>
-      <p class="turquoise-text border" style="text-align:right;">objects</p>
-      <p class="body-type main-content">Objects are used to hold things with multiple characteristics. We would just an object in a variable to hold more variables, these are called keys.</p>
-      <div class="border">
-      <img src="../images/objects-example.png" alt="screenshot of object with keys" class="objects-example">
-      </div>
-      <p class="body-type main-content"></p>
-      <div class="border"></div>
-      <h3 class="turquoise-text">What the Func(tion)?!</h3>
-        <p class="body-type main-content">Functions are what are used to control our Javascript. Just as we use style names to control different class styles in CSS, we name our functions in Javascript and use those function names to control our Javascript interactions. Let's look at our example below.</p>
+    <h3 class="turquoise-text">Control flow and Loops</h3>
+       <p class="turquoise-text border" style="text-align:right;">control flow</p>
+          <p class="body-type main-content">Control flow is how the computer reads and executes the code we've written. When we write some instructions the computer will read this from top to bottom. When the computer comes across instructions it will execute the instructions we are giving it in that order. Think of it like watching Netflix. First you open up your computer or turn on your tv, then you select your log in/who is watching Netflix, then we pick something to watch and press play and away we go.</p>
+        <p class="turquoise-text border" style="text-align:right;">loops</p>
+          <p class="body-type main-content">Loops are instructions that will interrupt our control flow and loop through information until we've told it to stop and/or there's no more information to loop through. Once that loop has completed the computer will keep reading and move back through the control flow. Going back to watching Netflix, how often have you opened up Netflix without knowing what you want to watch? The Netflix scroll could be looked at like a loop. Your control flow is interrupted between the logging in and pressing play by scrolling (or looping) through everything there is to watch until you come across what you want to watch and you continue on as per usual.</p>
+       <div class="border"></div>
+    <h3 class="turquoise-text">What is the DOM?</h3>
+        <p class="body-type main-content">The DOM (Document Object Model) is essentially the family tree of the webpage you're looking at. It is defined by the HTML on the page and we can use it to manipulate all our elements on the page, without having to change the original code. We can also view this in our browser window! We can use the DOM to find different HTML elements or classes through a NodeList. We start off with our Document at the very top. Next we move down to our Nodes. Everything in our document is a node of some description. Our nodes can be Elements, Classes, Attributes etc. If we carry on down the element path underneath that we have our HTML Elements. Our HTML elements will have siblings and children and parents, depending on where they sit in the document. If we think of the <code>body</code> as the parent and next we have an <code>h1</code> element and underneath that we have 2 <code>p</code> elements, the <code>body</code> element is the parent of the <code>h1</code> element and the grandparent of the 2 <code>p</code> elements and the 2 <code>p</code> elements are siblings. </p>
+        <p class="body-type main-content">The DOM isn't it's own language, it's more like an access point or a gateway into our document. We would use the Javascript language to access the DOM and we can call our results into our console. Let's look at the below screenshot.</p>
           <div class="border">
-          <img src="../images/functions-example.png" alt="screenshot of function code" class="functions-example"> </div>
-        <p class="body-type main-content"> First we have the word <code>function</code> this is telling us that it's a function. Next we have the name of the function <code>iLoveFunctions</code>. We are going to use this when we call the function after we've written our instructions. Next to it we have our parameters <code>(funk, tions)</code>. We have 2 parameters in here <code>funk</code> and <code>tions</code>. You can have as many or as few parameters in a function as you need. These hold the input information that the function expects. 
-        </p>
-        <p class="body-type main-content">After we've named our function and defined our parameters we're going to give our function some instructions. These instructions go in <code>{curly brackets}</code>. In our example we are giving our function an <code>if</code> instruction. We are essentially telling our function that when we call or execute it if <code>parameter 1</code> is exactly the same as <code>parameter 2</code> it will return the first <code>string</code> and if it doesn't it will return the second <code>string</code>.Once we've finished with our instructions we have to make sure our whole function is closed off with a <code>}</code> curly bracket.
-        </p>
-        <p class="body-type main-content">In order to call our function we write the name of the function <code>iLoveFunctions</code> with what our parameters look like. In this case our parameters are <code>("Funky", "Funky")</code>. So why do our input parameters look different to what we are calling? Remember our input parameters are information holders. They are just placeholders for the information that we are calling.Let's say we are looking for 2 winners, if we call <code>iLoveFunctions("Winner", "Winner")</code> then yay! We've fulfilled our dream of having 2 winners. If we don't have 2 winners and we call <code>iLoveFunctions("Winner","Loser")</code> then we haven't fulfilled our dream and our 2 parameters don't match.</p>
-        <p class="body-type main-content">You can put as many instructions in a function as you like. That's super exciting because it means we can do a whole range of things without having to call each instruction individually! 
+            <img src="../images/console-screenshot.png" alt="screenshot of console" class="screenshot-example">
+          </div>
+        <p class="body-type main-content">I wanted to find where all my <code>h3</code> elements are on my page. I did this using <code>document.querySelectorAll("h3")</code>. You can see the DOM in action here, it brought up a NodeList, which is like an Array, so I can see what I want to without searching through all my HTML code. It allows me to drop down and see all the information I need to make any necessary changes I want to make.</p>
+       <div class="border"></div>
+    <h3 class="turquoise-text">Arrays and Objects</h3>
+        <p class="turquoise-text border" style="text-align:right;">arrays</p>
+          <p class="body-type main-content">Arrays contain multiple items in a single variable. We can use arrays when we want to store multiple items and return a selected item or items based on it's position in the array. Let's look at the example below.</p>
+          <div class="border">
+            <img src="../images/arrays-example.png" alt="screenshot of variable with array" class="code-example">
+          </div>
+          <p class="body-type main-content"></p>
+        <p class="turquoise-text border" style="text-align:right;">objects</p>
+          <p class="body-type main-content">Objects are used to hold things with multiple characteristics. We would use an object in a variable to hold characteristics, characteristics are made up of a key and a value. They work different to arrays as we don't call the value by their array position, but rather by the object key. Let's look at the example below.</p>
+          <div class="border">
+            <img src="../images/objects-example.png" alt="screenshot of object with keys" class="code-example">
+          </div>
+          <p class="body-type main-content">We have defined a variable with the object dragRaceWinners. Within that object we have a number of different keys and values. If we wanted to know who the Season Nine winner was we could call <code>dragRaceWinners.seasonNine</code>. If we were to <code>console.log(dragRaceWinners.seasonNine)</code> we would get the value <code>"Sasha Velour"</code></p>
+          <div class="border"></div>
+    <h3 class="turquoise-text">What the Func(tion)?!</h3>
+          <p class="body-type main-content">Functions are what are used to control our Javascript. Just as we use style names to control different class styles in CSS, we name our functions in Javascript and use those function names to control and execute our Javascript interactions. Let's look at our example below.</p>
+          <div class="border">
+            <img src="../images/functions-example.png" alt="screenshot of function code" class="code-example"> </div>
+          <p class="body-type main-content"> First we have the word <code>function</code> this is telling us that it's a function. Next we have the name of the function <code>iLoveFunctions</code>. We are going to use this when we call the function after we've written our instructions. Next to it we have our parameters <code>(funk, tions)</code>. We have 2 parameters in here <code>funk</code> and <code>tions</code>. You can have as many or as few parameters in a function as you need. These hold the input information that the function expects. 
+         </p>
+          <p class="body-type main-content">After we've named our function and defined our parameters we're going to give our function some instructions. These instructions go in <code>{curly brackets}</code>. In our example we are giving our function an <code>if</code> instruction. We are essentially telling our function that when we call or execute it if <code>parameter 1</code> is exactly the same as <code>parameter 2</code> it will return the first <code>string</code> and if it doesn't it will return the second <code>string</code>.Once we've finished with our instructions we have to make sure our whole function is closed off with a <code>}</code> curly bracket.
+          </p>
+          <p class="body-type main-content">In order to call our function we write the name of the function <code>iLoveFunctions</code> with what our parameters look like. In this case our parameters are <code>("Funky", "Funky")</code>. So why do our input parameters look different to what we are calling? Remember our input parameters are information holders. They are just placeholders for the information that we are calling.Let's say we are looking for 2 winners, if we call <code>iLoveFunctions("Winner", "Winner")</code> then yay! We've fulfilled our dream of having 2 winners. If we don't have 2 winners and we call <code>iLoveFunctions("Winner","Loser")</code> then we haven't fulfilled our dream and our 2 parameters don't match.</p>
+          <p class="body-type main-content">You can put as many instructions in a function as you like. That's super exciting because it means we can do a whole range of things without having to call each instruction individually! 
         </p>
     </div>
     <div class="border"></div>
