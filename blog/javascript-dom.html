@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:wght@100&family=Special+Elite&display=swap" rel="stylesheet">
-        <title>placeholder</title>
+    <script src="../scripts/javascript-blog.js"></script>
+        <title>Javascript and DOM</title>
     </head>
     <body style="background-color: #091a22">
       <div class="banner">
@@ -26,24 +27,33 @@
       <h3 class="turquoise-text">Javascript and the relationship to HTML and CSS</h3>
       <form>
         <fieldset>
-          <legend>What is your preferred font colour?</legend>
-          <input type="radio" id="turquoise" name="font-colour">
-          <label for="turquoise">Turquoise</label>
-          <input type="radio" id="pink" name="font-colour">
-          <label for="pink">Pink</label>
-          <input type="radio" id="white" name="font-colour">
-          <label for="white">White</label>
+          <legend>What is your preferred background colour?</legend>
+          <input type="radio" id="dark" name="font-colour" onClick="changeBackgroundColour('d')" checked>
+          <label value="dark">Dark Blue</label>
+          <input type="radio" id="pink" name="font-colour" onClick="changeBackgroundColour('p')">
+          <label value="pink">Pink</label>
+          <input type="radio" id="white" name="font-colour"onClick="changeBackgroundColour('w')">
+          <label value="white">White</label>
         </fieldset>
       </form>
-      <p></p>
+      <p class="body-type">
+        Notice how when you select different options, that changes the background colour? This is Javascript interacting with the HTML and CSS on the page! If HTML is the body and CSS is the style, Javascript is the neuron pathways telling the body how to move and the CSS what to look like.
+      </p>
       <h3 class="turquoise-text">Control flow and Loops</h3>
-      <p></p>
+      <p class="turquoise-text" style="text-align:center;">control flow</p>
+      <p class="body-type">Control flow is how the computer reads and executes the code we've written. When we write some instructions the computer will read this from top to bottom. When the computer comes across instructions it will execute the instructions we are giving it in that order</p>
+      <p class="turquoise-text" style="text-align:center;">loops</p>
+      <p class="body-type">Loops are instructions that will interrupt our control flow and loop through information until we've told it to stop and/or there's no more information to loop through. Once that loop has completed the computer will keep reading and move back through the control flow.</p>
       <h3 class="turquoise-text">What is the DOM?</h3>
-      <p></p>
+      <p class="body-type">The DOM is essentially the family tree of the webpage youre looking at. </p>
       <h3 class="turquoise-text">Arrays and Objects</h3>
-      <p></p>
+      <p class="turquoise-text" style="text-align:center;">arrays</p>
+      <p class="body-type">Arrays contain multiple items in a single variable. We can use arrays when we want to store multiple items and return a selected item or items.</p>
+      <p class="turquoise-text" style="text-align:center;">objects</p>
+      <p class="body-type">Objects are used to hold things with multiple characteristics. We would just an object in a variable to hold more variables, these are called keys.</p>
       <h3 class="turquoise-text">What the Func(tion)?!</h3>
-      <p></p>
+      <p class="body-type">Functions are what are used to control our javascript. Just as we use style names to control different class styles in CSS, we name our functions in Javascript and use those function names to control our Javascript interactions.</p>
     </div>
+    <script src="../blog.js" type="text/js"></script>
     </body>
   </html>
