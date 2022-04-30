@@ -147,3 +147,26 @@ fieldset {
   border-bottom-style: solid;
   width: 75%;
 }
+.functions-example {
+  height: 20vw;
+  width: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:2vw;
+  margin-top:2vw;
+}
+code {
+  background-color: #013052;
+  color: #f7a0bf;
+  font-family: 'Courier New', Courier, monospace;
+}
+.objects-example {
+  height: 20vw;
+  width: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:2vw;
+  margin-top:2vw;
+}
