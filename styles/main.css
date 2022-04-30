@@ -127,8 +127,10 @@ white-space:nowrap;
 .culture-button:hover {
   transform: scale(1.5);
 }
-.learning-list {
-  list-style-position: inside;
-  margin:0;
-  padding:0;
+fieldset {
+  font-family: "special elite";
+  font-size:1.5vw;
+  color:turquoise;
+  padding:2vw;
+  border-color: #f7a0bf;
 }
