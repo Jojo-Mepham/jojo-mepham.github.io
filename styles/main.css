@@ -75,7 +75,7 @@ white-space:nowrap;
 }
 .body-type {
   font-family: "special elite";
-  font-size:1.5vw;
+  font-size:1.2vw;
   text-align:center;
   color:turquoise;
   padding:2vw;
@@ -172,4 +172,10 @@ code {
   margin-bottom:2vw;
   margin-top:2vw;
   padding: 2.5vw;
+}
+.right-border {
+  border-color: #f7a0bf;
+  border-right-style: solid;
+  padding-right: 15vw;
+  border-spacing: 30%;
 }
