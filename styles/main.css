@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+  body{
+  background-color: turquoise;
+  }
+}
+
 html, body {
   margin:0;
   padding: 0;
@@ -178,10 +184,4 @@ code {
   border-right-style: solid;
   padding-right: 15vw;
   border-spacing: 30%;
-}
-
-@media (max-width: 600px) {
-  body{
-  background-color: turquoise;
-  }
 }
