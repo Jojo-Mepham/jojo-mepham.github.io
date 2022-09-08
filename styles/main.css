@@ -179,3 +179,9 @@ code {
   padding-right: 15vw;
   border-spacing: 30%;
 }
+
+@media (max-width: 600px) {
+  body{
+  background-color: turquoise;
+  }
+}
